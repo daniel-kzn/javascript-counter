@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  height: 100vh;
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  padding: 30px;
+}
+.value {
+  padding-bottom: 30px;
+  font-size: 60px;
+}
+
+button {
+  background-color: transparent;
+  color: #fafafa;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
